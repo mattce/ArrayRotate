@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>array.rotate()</title>
+    <script src="array.rotate.js"></script>
+</head>
+<body>
+
+<script>
+    var testArr = [
+        [1,2,3],
+        [4,5,6]
+    ];
+
+    console.log("init field")
+    console.table(testArr);
+
+// rotation 4 times cw
+    console.info("rotate 4 times cw")
+    testArr = testArr.rotate("cw");
+    console.table(testArr);
+
+    testArr = testArr.rotate("cw");
+    console.table(testArr);
+
+    testArr = testArr.rotate("cw");
+    console.table(testArr);
+
+    testArr = testArr.rotate("cw");
+    console.table(testArr);
+
+// rotating 4 times ccw
+    console.info("rotate 4 times ccw")
+    testArr = testArr.rotate("ccw");
+    console.table(testArr);
+
+    testArr = testArr.rotate("ccw");
+    console.table(testArr);
+
+    testArr = testArr.rotate("ccw");
+    console.table(testArr);
+
+</script>
+
+</body>
+</html>
