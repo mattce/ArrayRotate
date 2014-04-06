@@ -2,8 +2,8 @@
 Array.prototype.rotate = function ( dir ) {
     var that = this,
         direction = dir !== "ccw",
-        flat = [],
         columns = that[0].length,
+        flat = [],
         tmp = [];
 
     /* check if used array has proper structure */
